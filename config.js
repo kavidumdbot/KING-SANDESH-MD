@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "KSMD~mo4lnDiC#08eD23JCcgq1gir4TXTHiaZ52mJUq1fIIfUB7kGK0SY",
+SESSION_ID: process.env.SESSION_ID || "KSMD~NJAkGZwA#EuY6msSjEP_WwMl5gXeMNB1mU0oIEB0wKaLkbRtpi6I",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -14,8 +14,8 @@ AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*𝙰𝚄𝚃𝙾 𝚂𝙴𝙴𝙽 𝚈𝙾𝚄𝚁 𝚂𝚃𝙰𝚃𝚄𝚂 𝙱𝚈 <| 𝐊𝐈𝐍𝐆-𝐒𝐀𝐍𝐃𝐄𝐒𝐇-𝐌𝐃 𝐕❷🫧*",
-// set the auto reply massage on status reply  
-ANTI_DELETE: process.env.ANTI_DELETE || "true",
+// set the auto reply massage on status r
+ANTI_DELETE: pr
 // set true false for anti delete     
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'same' if you want to resend deleted message in same chat     
